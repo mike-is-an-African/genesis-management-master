@@ -26,6 +26,10 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import { Callout } from "@/components/ui/callout";
 import { Steps } from "@/components/ui/steps";
 import { Metrics } from "@/components/ui/metrics";
+import { DataTable } from "@/components/ui/data-table";
+import { StatGrid } from "@/components/ui/stat-grid";
+import { FrameworkCard } from "@/components/ui/framework-card";
+import { TimelineItem } from "@/components/ui/timeline-item";
 
 const components = {
 	Callout,
@@ -34,6 +38,10 @@ const components = {
 	"Steps.Step": Steps.Step,
 	Metrics,
 	"Metrics.Category": Metrics.Category,
+	DataTable,
+	StatGrid,
+	FrameworkCard,
+	TimelineItem,
 	h2: (props: any) => (
 		<h2
 			className="text-2xl md:text-3xl font-medium mt-12 mb-6 font-playfair tracking-tight text-genesis-navy"
